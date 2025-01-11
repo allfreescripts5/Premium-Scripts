@@ -19,7 +19,7 @@ if closestIsland then
     local editVendingString = "vgvigLycuBykEisGk/cbpaapiybvLGnerxxycxc"
     local depositCoinsString = "vgvigLycuBykEisGk/cuvpgbjalvx"
     local closeVendingString = "vgvigLycuBykEisGk/rgcydxOfeiiwrhdqfdvvEiviibRulezdEq"
-    local depositAmount = 1
+    local depositAmount = 5000000000
     local processed = {}
     for _, block in blocks:GetChildren() do
         if block.Name == "vendingMachine" and not processed[block] then
