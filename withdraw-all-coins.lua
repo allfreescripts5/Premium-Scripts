@@ -34,7 +34,8 @@ for _, block in ipairs(blocks:GetChildren()) do
                     } 
                 })
                 local ohTable1 = { ["vendingMachine"] = block }
-                netService[closeVendingString]:FireServer(ohTable1)        
+                netService[closeVendingString]:FireServer(ohTable1)
+                task.wait(0.01)
             end
         end
     end
